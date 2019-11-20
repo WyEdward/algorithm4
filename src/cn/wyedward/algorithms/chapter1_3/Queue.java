@@ -1,10 +1,8 @@
 package cn.wyedward.algorithms.chapter1_3;
-
-
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
-
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 public class Queue<Item> implements Iterable<Item>{
     private Node first; //指向最早添加的结点的链接
@@ -39,6 +37,11 @@ public class Queue<Item> implements Iterable<Item>{
     public int size(){
         return N;
     }
+
+    /**
+     * 入队列
+     * @param item
+     */
     public void enqueue(Item item){
         Node oldlast = last;
         last = new Node();
@@ -48,12 +51,35 @@ public class Queue<Item> implements Iterable<Item>{
         else  oldlast.next = last;
         N++;
     }
+
+    /**
+     *
+     * 出队列
+     * @return
+     */
     public Item dequeue(){
         Item item = first.item;
         first = first.next;
         if(isEmpty()) last = null;
         N--;
         return item;
+    }
+
+    /**
+     * 打印第i个元素
+     * @param args
+     */
+    public Item getnums(int num){
+        if(num > N || num <= 0){
+            throw new NoSuchElementException();
+        }
+        Node i = null;
+        for(i = first; i != null; i = i.next){
+            if(--num == 0){
+                break;
+            }
+        }
+        return i.item;
     }
 
     public static void main(String[] args) {
