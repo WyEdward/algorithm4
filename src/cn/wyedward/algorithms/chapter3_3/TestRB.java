@@ -2,6 +2,9 @@ package cn.wyedward.algorithms.chapter3_3;
 
 import edu.princeton.cs.algs4.StdIn;
 
+/**
+ * 测试红黑树
+ */
 public class TestRB {
 
     public static void main(String[] args) {

@@ -2,6 +2,11 @@ package cn.wyedward.algorithms.chapter3_3;
 
 import cn.wyedward.algorithms.chapter1_3.Queue;
 
+/**
+ * 基于红黑二叉查找树的符号表
+ * @param <Key>
+ * @param <Value>
+ */
 public class RedBlackBST<Key extends Comparable<Key>, Value> {
     private Node root;
 
