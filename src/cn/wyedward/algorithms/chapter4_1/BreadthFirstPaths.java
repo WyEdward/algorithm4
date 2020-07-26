@@ -3,6 +3,10 @@ package cn.wyedward.algorithms.chapter4_1;
 import cn.wyedward.algorithms.chapter1_3.Queue;
 import edu.princeton.cs.algs4.Stack;
 
+/**
+ * 使用广度优先搜索查找图中的路径
+ * 单点最短路径
+ */
 public class BreadthFirstPaths {
     private Boolean[] marked; //到达该顶点的最短路径已知吗？
     private int[] edgeTo;    //到达该顶点的已知路径上的最后一个顶点

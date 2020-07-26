@@ -3,6 +3,9 @@ package cn.wyedward.algorithms.chapter4_1;
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.ST;
 
+/**
+ * 符号图
+ */
 public class SymbolGraph {
     private ST<String, Integer> st;   //符号名 -> 索引
     private String[] keys;          //索引 -> 符号名

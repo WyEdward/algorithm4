@@ -2,6 +2,7 @@ package cn.wyedward.algorithms.chapter4_1;
 
 /**
  * G是无环图吗？假设不存在自环或平行边
+ * 检测环
  */
 public class Cycle {
     private boolean[] marked;

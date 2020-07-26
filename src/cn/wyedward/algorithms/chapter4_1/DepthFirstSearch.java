@@ -1,7 +1,9 @@
 package cn.wyedward.algorithms.chapter4_1;
 
 /**
+ * 深度优先搜索
  * 搜索在图中与source点连通的个数和点的索引位置
+ * 单点连通性
  */
 public class DepthFirstSearch {
     private Boolean[] marked; //表示路口经过的标记 也就是与起点连通的顶点

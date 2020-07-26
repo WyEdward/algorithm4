@@ -1,5 +1,9 @@
 package cn.wyedward.algorithms.chapter4_1;
 
+/**
+ * 深度优先算法搜索找出图中的所有连通分量
+ * 连通性
+ */
 public class CC {
     private boolean[] marked; //判断是否标记了
     private int id[];  //每个点的连通分量标识符

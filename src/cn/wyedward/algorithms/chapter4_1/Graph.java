@@ -4,6 +4,10 @@ package cn.wyedward.algorithms.chapter4_1;
 import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.In;
 
+/**
+ * 图的表现
+ * Graph数据类型
+ */
 public class Graph {
     private final int V; //顶点数量
     private int E;   //边的数量

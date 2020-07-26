@@ -1,5 +1,8 @@
 package cn.wyedward.algorithms.chapter4_1;
 
+/**
+ * 双色问题 (图的二分性)
+ */
 public class TwoColor {
     private boolean[] marked;
     private boolean[] color;
