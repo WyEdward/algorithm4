@@ -2,6 +2,11 @@ package cn.wyedward.algorithms.chapter3_1;
 
 import cn.wyedward.algorithms.chapter1_3.Queue;
 
+/**
+ * 链表(顺序查找)
+ * @param <Key>
+ * @param <Value>
+ */
 public class SequentialSearchST<Key, Value> {
     private Node first; //链表首结点
     private int N = 0;

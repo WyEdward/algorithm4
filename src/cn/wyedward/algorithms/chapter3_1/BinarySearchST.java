@@ -2,6 +2,11 @@ package cn.wyedward.algorithms.chapter3_1;
 
 import cn.wyedward.algorithms.chapter1_3.Queue;
 
+/**
+ * 有序数组(二分查找)
+ * @param <Key>
+ * @param <Value>
+ */
 public class BinarySearchST<Key extends Comparable<Key>, Value> {
     private Key[] keys;
     private Value[] vals;
