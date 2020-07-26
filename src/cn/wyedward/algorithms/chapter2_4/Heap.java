@@ -2,6 +2,9 @@ package cn.wyedward.algorithms.chapter2_4;
 
 import edu.princeton.cs.algs4.StdOut;
 
+/**
+ * 堆
+ */
 public class Heap {
     public static void sort(Comparable[] a){
         int n = a.length;

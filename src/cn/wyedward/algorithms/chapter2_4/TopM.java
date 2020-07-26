@@ -2,6 +2,9 @@ package cn.wyedward.algorithms.chapter2_4;
 
 import edu.princeton.cs.algs4.*;
 
+/**
+ * 优先队列的用例
+ */
 public class TopM {
     public static void main(String[] args) {
         //打印输入流中最大的M行

@@ -1,5 +1,9 @@
 package cn.wyedward.algorithms.chapter2_4;
 
+/**
+ * 基于堆的优先队列
+ * @param <Key>
+ */
 public class MaxPQ<Key extends Comparable<Key>> {
     private Key[] pq;  //基于堆的完全二叉树
     private int N = 0; //存储在pq[1..N]中 ,pq[0]没有使用
