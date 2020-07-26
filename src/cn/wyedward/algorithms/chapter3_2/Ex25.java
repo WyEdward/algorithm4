@@ -3,7 +3,9 @@ package cn.wyedward.algorithms.chapter3_2;
 import edu.princeton.cs.algs4.StdIn;
 
 import java.util.Arrays;
-
+/**
+ * 构造一棵和二叉查找等价的二叉查找树
+ */
 public class Ex25 {
     public static BST<String, Integer> balance(String[] a){
         Arrays.sort(a);

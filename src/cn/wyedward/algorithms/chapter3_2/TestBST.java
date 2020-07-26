@@ -2,6 +2,9 @@ package cn.wyedward.algorithms.chapter3_2;
 
 import edu.princeton.cs.algs4.StdIn;
 
+/**
+ * 测试基于二叉查找树的符号表
+ */
 public class TestBST {
 
     public static void main(String[] args) {

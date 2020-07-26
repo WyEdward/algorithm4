@@ -2,6 +2,11 @@ package cn.wyedward.algorithms.chapter3_2;
 
 import cn.wyedward.algorithms.chapter1_3.Queue;
 
+/**
+ * 基于二叉查找树的符号表
+ * @param <Key>
+ * @param <Value>
+ */
 public class BST<Key extends Comparable<Key>, Value> {
     private Node root; //二叉查找树的根结点
 
